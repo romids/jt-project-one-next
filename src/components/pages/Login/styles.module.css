@@ -1,0 +1,135 @@
+.page_container {
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+  width: 100%;
+}
+.defaultheader_1 {
+  width: 100%;
+}
+.content_box_0 {
+  background-color: #eee;
+  flex: 1;
+  min-height: auto;
+  width: 100%;
+}
+.form_1_container {
+  height: auto;
+  margin-left: 0px;
+  margin-right: 0px;
+  width: 100%;
+}
+.form_1_inner {
+  height: auto;
+}
+.form_1 {
+  height: auto;
+  margin-bottom: 48px;
+  margin-top: 48px;
+  padding-bottom: 32px;
+  padding-left: 26px;
+  padding-right: 26px;
+  padding-top: 32px;
+}
+.form_1_name {
+  color: #282828;
+  font-size: 32px;
+  font-weight: bold;
+  margin-bottom: 32px;
+}
+.input_1_container {
+  background-color: transparent;
+  margin-bottom: 24px;
+  width: 100%;
+}
+.input_1_inner {
+  background-color: transparent;
+  margin-bottom: 10px;
+  margin-top: 10px;
+  width: 100%;
+}
+.input_1_label {
+  color: #000;
+  display: inline;
+  font-weight: bold;
+  margin-right: 10px;
+}
+.input_1_required {
+  color: #f00;
+  display: inline;
+  font-weight: bold;
+}
+.input_1_input {
+  background-color: white;
+  border-color: #d9d9d9;
+  border-style: solid;
+  border-width: 1px;
+  font-weight: 500;
+  width: 100%;
+}
+.input_1 {
+  background-color: transparent;
+  width: 100%;
+}
+.input_1_error_message_container {
+  background-color: transparent;
+  margin-top: 10px;
+  width: 100%;
+}
+.input_1_error_message_text {
+  color: #f00;
+  display: inline;
+  font-weight: normal;
+}
+.input_2_container {
+  background-color: transparent;
+  margin-bottom: 24px;
+  width: 100%;
+}
+.input_2_inner {
+  background-color: transparent;
+  margin-bottom: 10px;
+  margin-top: 10px;
+  width: 100%;
+}
+.input_2_label {
+  color: #000;
+  display: inline;
+  font-weight: bold;
+  margin-right: 10px;
+}
+.input_2_required {
+  color: #f00;
+  display: inline;
+  font-weight: bold;
+}
+.input_2_input {
+  background-color: white;
+  border-color: #d9d9d9;
+  border-style: solid;
+  border-width: 1px;
+  font-weight: 500;
+  width: 100%;
+}
+.input_2 {
+  background-color: transparent;
+  width: 100%;
+}
+.input_2_error_message_container {
+  background-color: transparent;
+  margin-top: 10px;
+  width: 100%;
+}
+.input_2_error_message_text {
+  color: #f00;
+  display: inline;
+  font-weight: normal;
+}
+.form_1_button {
+  margin-top: 16px;
+  width: 100%;
+  cursor: pointer;
+}
+.defaultfooter_1 {
+  width: 100%;
+}
