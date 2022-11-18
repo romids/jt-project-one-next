@@ -1,7 +1,7 @@
 import type { NextPageContext } from "next";
 import { serverSideTranslations } from "next-i18next/serverSideTranslations";
-// import { initServerInfo } from "@utils/serverSide";
-// import { dehydrate } from "react-query";
+import { initServerInfo } from "@utils/serverSide";
+import { dehydrate } from "react-query";
 import Home from "@components/pages/Home";
 export async function getServerSideProps(context: NextPageContext) {
   const { locale = "en", query } = context;
@@ -9,14 +9,14 @@ export async function getServerSideProps(context: NextPageContext) {
     props?: Record<string, unknown>;
     redirect?: Record<string, unknown>;
   } = {};
-  // const { session, queryClient } = await initServerInfo(context);
+  const { session, queryClient } = await initServerInfo(context);
 
   return {
     ...options,
     props: {
       query,
-      // session,
-      // dehydratedState: dehydrate(queryClient),
+      session,
+      dehydratedState: dehydrate(queryClient),
       seo: {
         title: "" || "",
         description: "" || "",
